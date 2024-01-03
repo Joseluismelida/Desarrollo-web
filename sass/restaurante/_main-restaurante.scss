@@ -1,0 +1,75 @@
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////
+                           RESTAURANTE APLICANDO GRID Y FLEX
+////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.grid__hijo{
+    border-radius: 15px; 
+    background-color:#D9D9D9 ;
+    border: #0B2B7C solid 2px;
+    width: 520px;
+    height: 150px;
+    display: flex;
+    
+ }
+ 
+ .grid-hijo__img{
+    width:200px; 
+    height: auto;
+    border-radius: 14px;
+ }
+ 
+ 
+ .grid-hijo__p{
+    text-align: center;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    
+ }
+ 
+ 
+ .grid{
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    gap: 40px;
+ }
+ 
+ 
+ 
+ .grid__plato1{
+    grid-column: 2/3;
+    grid-row: 1/2;
+ }
+ 
+ .grid__plato2{
+    grid-column: 1/2;
+    grid-row: 1/2;
+ }
+ 
+ .grid__plato3{
+    grid-column: 2/3;
+    grid-row: 2/3;
+ }
+ 
+ .grid__plato4{
+    grid-column: 1/2;
+    grid-row: 2/3;
+ }
+ 
+ 
+ .grid__plato5{
+    grid-column: 2/3;
+    grid-row: 3/4;
+ }
+ 
+ .grid__plato6{
+    grid-column: 1/2;
+    grid-row: 3/4;
+ }
+ 
+ 

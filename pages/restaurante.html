@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!--SCROLL ANIMATION AOS-->
+            <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="../css/style.css">
 
     <title>Restaurante</title>
@@ -31,70 +34,70 @@
 
 
     <main id="mainh"> 
-        <div>
-            <h1>Restaurante</h1>
-        </div>
+        <section>
+            <h1 class="mainh__titulo">Restaurante</h1>
+        </section>
         
 
         <section class="grid">
         
 
-            <article class="plato1 grid__hijo">
+            <article class="grid__plato1 grid__hijo" data-aos="zoom-in-up">
 
-                        <img src="../images/restaurante/pexels-ash-376464 (1).jpg" alt="" class="grid__img">
+                        <img src="../images/restaurante/pexels-ash-376464 (1).jpg" alt="" class="grid-hijo__img">
 
 
-                        <div class="grid__p">
+                        <div class="grid-hijo__p">
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, qui alias harum iure minus possimus non recusandae reiciendis officia culpa? ipsum dolor sit amet consectetur, adipisicing elit.</p>
                         </div>
             </article>
 
-            <article class="plato2 grid__hijo">
+            <article class="grid__plato2 grid__hijo" data-aos="zoom-in-up">
 
-                <img src="../images/restaurante/pexels-desativado-2433979.jpg" alt="" class="grid__img">
+                <img src="../images/restaurante/pexels-desativado-2433979.jpg" alt="" class="grid-hijo__img">
 
 
-                <div class="grid__p">
+                <div class="grid-hijo__p">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, qui alias harum iure minus possimus non recusandae reiciendis officia culpa? ipsum dolor sit amet consectetur, adipisicing elit.</p>
                 </div>
             </article>
 
-            <article class="plato3 grid__hijo">
+            <article class="grid__plato3 grid__hijo" data-aos="zoom-in-up">
 
-                <img src="../images/restaurante/pexels-ana-madeleine-uribe-2762942.jpg" alt="" class="grid__img">
+                <img src="../images/restaurante/pexels-ana-madeleine-uribe-2762942.jpg" alt="" class="grid-hijo__img">
 
 
-                <div class="grid__p">
+                <div class="grid-hijo__p">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, qui alias harum iure minus possimus non recusandae reiciendis officia culpa? ipsum dolor sit amet consectetur, adipisicing elit.</p>
                 </div>
             </article>
 
-            <article class="plato4 grid__hijo">
+            <article class="grid__plato4 grid__hijo" data-aos="zoom-in-up">
 
-                <img src="../images/restaurante/pexels-julie-aagaard-2097090.jpg" alt="" class="grid__img">
+                <img src="../images/restaurante/pexels-julie-aagaard-2097090.jpg" alt="" class="grid-hijo__img">
 
 
-                <div class="grid__p">
+                <div class="grid-hijo__p">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, qui alias harum iure minus possimus non recusandae reiciendis officia culpa? ipsum dolor sit amet consectetur, adipisicing elit.</p>
                 </div>
             </article>
 
-            <article class="plato5 grid__hijo">
+            <article class="grid__plato5 grid__hijo" data-aos="zoom-in-up">
 
-        <img src="../images/restaurante/pexels-nerfee-mirandilla-3186654.jpg" alt="" class="grid__img">
+        <img src="../images/restaurante/pexels-nerfee-mirandilla-3186654.jpg" alt="" class="grid-hijo__img">
 
 
-        <div class="grid__p">
+        <div class="grid-hijo__p">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, qui alias harum iure minus possimus non recusandae reiciendis officia culpa? ipsum dolor sit amet consectetur, adipisicing elit.</p>
         </div>
             </article>
 
-            <article class="plato6 grid__hijo">
+            <article class="grid__plato6 grid__hijo" data-aos="zoom-in-up">
 
-        <img src="../images/restaurante/pexels-robin-stickel-70497.jpg" alt="" class="grid__img">
+        <img src="../images/restaurante/pexels-robin-stickel-70497.jpg" alt="" class="grid-hijo__img">
 
 
-        <div class="grid__p">
+        <div class="grid-hijo__p">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, qui alias harum iure minus possimus non recusandae reiciendis officia culpa? ipsum dolor sit amet consectetur, adipisicing elit.</p>
         </div>
             </article>
@@ -117,24 +120,30 @@
 
         <section class="footer__redes" style="display: flex; align-items: center;" >
             <img src="../icons/icons8-facebook-48.png" alt="">
-            <a href="https://www.facebook.com/?locale=es_LA" class="footer__contacto"  target="_blank">Facebook</a>
+            <a href="https://www.facebook.com/?locale=es_LA" class="footer-redes__contacto"  target="_blank">Facebook</a>
         </section>
 
         
         <section class="footer__redes" style="display: flex; align-items: center;" >
             <img src="../icons/icons8-instagram-48.png" alt="">
-            <a href="https://instagram.com/?locale=es_LA" class="footer__contacto"  target="_blank">Instagram</a>
+            <a href="https://instagram.com/?locale=es_LA" class="footer-redes__contacto"  target="_blank">Instagram</a>
         </section>
 
 
             
         <section class="footer__redes" style="display: flex; align-items: center;" >
             <img src="../icons/icons8-twitter-48.png" alt="">
-            <a href="https://twitter.com/?locale=es_LA" class="footer__contacto"  target="_blank">Twitter</a>
+            <a href="https://twitter.com/?locale=es_LA" class="footer-redes__contacto"  target="_blank">Twitter</a>
         </section>
 
-
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+    
 </body>
 
 </html>

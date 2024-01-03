@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--SCROLL ANIMATION AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
 
     <title>Inicio</title>
@@ -32,73 +36,77 @@
     <main id="main">
 
         <section class="fondoMain">
-            <article class="titulo"><h1>HOTEL ALTOS DEL BERMEJO</h1></article>
+            <article class="fondoMain__titulo">
+                <h1 class="title">HOTEL ALTOS DEL BERMEJO</h1>
+            </article>
                 
 
         </section>
 
 
-        <section class="imagenesMain">
-            <article class="imagenes">
-                <img src="images/muestra-habitacio.jpg" alt="" class="imagenesMain__tamaño">
-                <h2>HABITACION</h2>
+        <section class="muestra">
+            <article class="muestra__imagenes" data-aos="fade-right">
+                <img src="images/muestra-habitacio.jpg" alt="" class="muestra-imagenes__tamaño">
+                <h2 class="muestra-imagenes__p">HABITACION</h2>
             </article>
 
 
-            <article class="imagenes">
-                <img src="images/images.jpg" alt="" class="imagenesMain__tamaño">
-                <h2>RECEPCION</h2>
+            <article class="muestra__imagenes" data-aos="fade-down">
+                <img src="images/images.jpg" alt="" class="muestra-imagenes__tamaño">
+                <h2 class="muestra-imagenes__p">RECEPCION</h2>
             </article>
 
-            <article class="imagenes">
-                <img src="images/villaggio-hotel-boutique.jpg" alt="" class="imagenesMain__tamaño">
-                <h2>DESAYUNADOR</h2>
+            <article class="muestra__imagenes" data-aos="fade-left">
+                <img src="images/villaggio-hotel-boutique.jpg" alt="" class="muestra-imagenes__tamaño">
+                <h2 class="muestra-imagenes__p">DESAYUNADOR</h2>
             </article>
         </section>
 
 
 
-        <section class="container">
-            <article class="descripcionMain">
-                <h3>BIENVENIDOS AL HOTEL ALTOS DEL BERMEJO</h3>
-                <p>NUESTROS SERVICIOS:</p>
+        <section class="container" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+            <article class="container__descripcion">
+                <h3 class="container-descripcion__subtitulo">BIENVENIDOS AL HOTEL ALTOS DEL BERMEJO</h3>
+                <p class="container-descripcion__pservicios">NUESTROS SERVICIOS:</p>
             </article>
             
         </section>
 
 
-        <section class="iconsMain">
+        <section class="boxi">
 
-        <article class="icons">
-            <img src="icons/servicios/desayuno.png" alt="" class="iconsMain__servicios">
-            <h3>DESAYUNO</h3>
+        <article class="boxi__icons" data-aos="flip-left">
+            <img src="icons/servicios/desayuno.png" alt="" class="boxi-icons__servicios">
+            <h3 class="boxi-icons__p">DESAYUNO</h3>
         </article>
 
 
 
-        <article class="icons">
-            <img src="icons/servicios/wifi.png" alt="" class="iconsMain__servicios">
-            <h3>WIFI</h3>
+        <article class="boxi__icons" data-aos="flip-left">
+            <img src="icons/servicios/wifi.png" alt="" class="boxi-icons__servicios">
+            <h3 class="boxi-icons__p">WIFI</h3>
 
 
 
         </article>
-        <article class="icons">
-            <img src="icons/servicios/aparcamiento-de-coches.png" alt="" class="iconsMain__servicios">
-            <h3>APARCAMIENTO</h3>
+        <article class="boxi__icons" data-aos="flip-left">
+            <img src="icons/servicios/aparcamiento-de-coches.png" alt="" class="boxi-icons__servicios">
+            <h3 class="boxi-icons__p">APARCAMIENTO</h3>
         </article>
 
 
-        <article class="icons">
-            <img src="icons/servicios/ver-la-television.png" alt="" class="iconsMain__servicios">
-            <h3>TV</h3>
+        <article class="boxi__icons" data-aos="flip-left">
+            <img src="icons/servicios/ver-la-television.png" alt="" class="boxi-icons__servicios">
+            <h3 class="boxi-icons__p">TV</h3>
         </article>
 
 
 
-        <article class="icons">
-            <img src="icons/servicios/aire-acondicionado.png" alt="" class="iconsMain__servicios">
-            <h3>AIRE</h3>
+        <article class="boxi__icons" data-aos="flip-left">
+            <img src="icons/servicios/aire-acondicionado.png" alt="" class="boxi-icons__servicios">
+            <h3 class="boxi-icons__p">AIRE</h3>
         </article>
 
         </section>
@@ -116,27 +124,35 @@
 
 
         <section class="footer__redes" style="display: flex; align-items: center;" >
-            <img src="icons/icons8-facebook-48.png" alt="">
-            <a href="https://www.facebook.com/?locale=es_LA" class="footer__contacto"  target="_blank">Facebook</a>
+            <img src="../icons/icons8-facebook-48.png" alt="">
+            <a href="https://www.facebook.com/?locale=es_LA" class="footer-redes__contacto"  target="_blank">Facebook</a>
         </section>
 
         
         <section class="footer__redes" style="display: flex; align-items: center;" >
-            <img src="icons/icons8-instagram-48.png" alt="">
-            <a href="https://instagram.com/?locale=es_LA" class="footer__contacto"  target="_blank">Instagram</a>
+            <img src="../icons/icons8-instagram-48.png" alt="">
+            <a href="https://instagram.com/?locale=es_LA" class="footer-redes__contacto"  target="_blank">Instagram</a>
         </section>
 
 
             
         <section class="footer__redes" style="display: flex; align-items: center;" >
-            <img src="icons/icons8-twitter-48.png" alt="">
-            <a href="https://twitter.com/?locale=es_LA" class="footer__contacto"  target="_blank">Twitter</a>
+            <img src="../icons/icons8-twitter-48.png" alt="">
+            <a href="https://twitter.com/?locale=es_LA" class="footer-redes__contacto"  target="_blank">Twitter</a>
         </section>
 
 
 
 
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

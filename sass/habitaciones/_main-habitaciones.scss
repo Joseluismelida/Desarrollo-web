@@ -1,0 +1,39 @@
+
+/*////////////////////////////////////////////////////////////////////////////////////////////
+                           HABITACIONES
+////////////////////////////////////////////////////////////////////////////////////////////*/
+#mainh{
+    min-height: 100vh;
+    background-image: url(../images/pexels-vlad-chețan-2957461.jpg);
+    background-size: cover;
+    background-position:center;
+    font-family: 'Kanit', sans-serif;
+ }
+ 
+ .cajaflex-boximg__hab{
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+ }
+ .cajaflex{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    justify-content: space-around;
+    
+ 
+ }
+ 
+ 
+ .cajaflex__boximg{
+    width: 450px;
+    height: 400px;
+    text-align: center;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    
+ }
+ 

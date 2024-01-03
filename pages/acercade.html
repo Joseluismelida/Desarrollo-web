@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <!--SCROLL ANIMATION AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="../css/style.css">
 
     <title>Acerca de</title>
@@ -30,18 +33,18 @@
 
     <main id="mainh">
         <section>
-            <h1 class="mainhTitulo">ACERA DE:</h1>
+            <h1 class="mainh__titulo">ACERA DE:</h1>
         </section>
 
-        <section class="padrebox">
-                <article class="padrebox__video">
-                    <iframe src="https://www.youtube.com/embed/-0rXzJq3Z5U?si=kqiKptoaHQZFQPb-"     title="YouTube video player" frameborder="0" allow="accelerometer;     autoplay; clipboard-write;  encrypted-media; gyroscope;picture-in-picture; web-share" allowfullscreen class="padrebox__iframe"></iframe>
+        <section class="mainh__padrebox">
+                <article  data-aos="zoom-out-right">
+                    <iframe src="https://www.youtube.com/embed/-0rXzJq3Z5U?si=kqiKptoaHQZFQPb-"     title="YouTube video player" frameborder="0" allow="accelerometer;     autoplay; clipboard-write;  encrypted-media; gyroscope;picture-in-picture; web-share" allowfullscreen class="mainh-padrebox__iframe"></iframe>
                 </article>
         
 
 
-                <article class="padrebox__acercade">
-                        <p class="padrebox__p">El pasaje experimentó un aumento en popularidad durante la década de 1960, cuando Letraset lo usó en sus hojas de transferencia seca, y nuevamente durante la década de 1990, cuando los editores de escritorio incluyeron el texto con su software. Hoy se ve en toda la web; en plantillas, sitios web y diseños de stock. Utilice nuestro generador para obtener el suyo propio o siga leyendo para conocer la historia autorizada de lorem ipsum.
+                <article class="mainh-padrebox__acercade" data-aos="zoom-out-left">
+                        <p class="mainh-padrebox__p">El pasaje experimentó un aumento en popularidad durante la década de 1960, cuando Letraset lo usó en sus hojas de transferencia seca, y nuevamente durante la década de 1990, cuando los editores de escritorio incluyeron el texto con su software. Hoy se ve en toda la web; en plantillas, sitios web y diseños de stock. Utilice nuestro generador para obtener el suyo propio o siga leyendo para conocer la historia autorizada de lorem ipsum.
                         </p>    
 
                 </article>
@@ -65,26 +68,29 @@
 
         <section class="footer__redes" style="display: flex; align-items: center;" >
             <img src="../icons/icons8-facebook-48.png" alt="">
-            <a href="https://www.facebook.com/?locale=es_LA" class="footer__contacto"  target="_blank">Facebook</a>
+            <a href="https://www.facebook.com/?locale=es_LA" class="footer-redes__contacto"  target="_blank">Facebook</a>
         </section>
 
         
         <section class="footer__redes" style="display: flex; align-items: center;" >
             <img src="../icons/icons8-instagram-48.png" alt="">
-            <a href="https://instagram.com/?locale=es_LA" class="footer__contacto"  target="_blank">Instagram</a>
+            <a href="https://instagram.com/?locale=es_LA" class="footer-redes__contacto"  target="_blank">Instagram</a>
         </section>
 
 
             
         <section class="footer__redes" style="display: flex; align-items: center;" >
             <img src="../icons/icons8-twitter-48.png" alt="">
-            <a href="https://twitter.com/?locale=es_LA" class="footer__contacto"  target="_blank">Twitter</a>
+            <a href="https://twitter.com/?locale=es_LA" class="footer-redes__contacto"  target="_blank">Twitter</a>
         </section>
 
-
-
-
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

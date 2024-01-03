@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--SCROLL ANIMATION AOS-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="../css/style.css">
 
     <title>Habitaciones</title>
@@ -31,22 +34,24 @@
 
 
     <main id="mainh"> 
-        <h1 class="mainhTitulo">NUESTRAS HABITACIONES:</h1>
+        <h1 class="mainh__titulo">NUESTRAS HABITACIONES:</h1>
         
         <section class="cajaflex">
 
-            <article class="cajaflex__boxImg">
+            <article class="cajaflex__boximg"data-aos="fade-up"
+            data-aos-duration="3000">
                 
-                <img src="../images/habitaciones/sgl-o-mat..jpg" alt="" class="cajaflex__hab">
+                <img src="../images/habitaciones/sgl-o-mat..jpg" alt="" class="cajaflex-boximg__hab">
                 <h2>HABITACION SINGLE/MATRIMONIAL</h2>
                 <P>Wifi    Airea condicionado</P>
                 <p>TV    Maximo de personas:2</p>
 
             </article> 
 
-            <article class="cajaflex__boxImg">
+            <article class="cajaflex__boximg" data-aos="fade-up"
+            data-aos-duration="3000">
                 
-                <img src="../images/habitaciones/doble.jpg" alt="" class="cajaflex__hab">
+                <img src="../images/habitaciones/doble.jpg" alt="" class="cajaflex-boximg__hab">
                 <h2>HABITACION DOBLE</h2>
                 <P>Wifi  Airea condicionado</P>
                 <p>TV    Maximo de personas:2</p>
@@ -58,18 +63,20 @@
 
         <section class="cajaflex">
 
-            <article class="cajaflex__boxImg">
+            <article class="cajaflex__boximg" data-aos="fade-up"
+            data-aos-duration="3000">
                 
-                <img src="../images/habitaciones/triple.jpg" alt="" class="cajaflex__hab">
+                <img src="../images/habitaciones/triple.jpg" alt="" class="cajaflex-boximg__hab">
                 <h2>HABITACION TRIPLE</h2>
                 <P>Wifi    Airea condicionado</P>
                 <p>TV       Maximo de personas:3</p>
 
             </article> 
 
-            <article class="cajaflex__boxImg">
+            <article class="cajaflex__boximg" data-aos="fade-up"
+            data-aos-duration="3000">
                 
-                <img src="../images/habitaciones/cuadruple.jpg" alt="" class="cajaflex__hab">
+                <img src="../images/habitaciones/cuadruple.jpg" alt="" class="cajaflex-boximg__hab">
                 <h2>HABITACION CUADRUPLE</h2>
                 <P>Wifi  Airea condicionado</P>
                 <p>TV    Maximo de personas:4</p>
@@ -98,26 +105,32 @@
 
         <section class="footer__redes" style="display: flex; align-items: center;" >
             <img src="../icons/icons8-facebook-48.png" alt="">
-            <a href="https://www.facebook.com/?locale=es_LA" class="footer__contacto"  target="_blank">Facebook</a>
+            <a href="https://www.facebook.com/?locale=es_LA" class="footer-redes__contacto"  target="_blank">Facebook</a>
         </section>
 
         
         <section class="footer__redes" style="display: flex; align-items: center;" >
             <img src="../icons/icons8-instagram-48.png" alt="">
-            <a href="https://instagram.com/?locale=es_LA" class="footer__contacto"  target="_blank">Instagram</a>
+            <a href="https://instagram.com/?locale=es_LA" class="footer-redes__contacto"  target="_blank">Instagram</a>
         </section>
 
 
             
         <section class="footer__redes" style="display: flex; align-items: center;" >
             <img src="../icons/icons8-twitter-48.png" alt="">
-            <a href="https://twitter.com/?locale=es_LA" class="footer__contacto"  target="_blank">Twitter</a>
+            <a href="https://twitter.com/?locale=es_LA" class="footer-redes__contacto"  target="_blank">Twitter</a>
         </section>
 
 
 
 
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
