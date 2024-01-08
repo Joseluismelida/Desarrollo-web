@@ -1,36 +1,33 @@
 /*////////////////FOOTER//////////////*/
 #footer{
-    font-family: 'Kdam Thmor Pro', sans-serif;
-    width: 100%;
-    height: 100px;
-    background: rgb(105,48,255);
-    background: linear-gradient(0deg, rgba(105,48,255,1) 21%, rgba(92,74,244,1) 71%, rgba(34,193,195,1) 92%);
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
- }
- 
- .footer-redes__contacto{
-    margin-right: 20px;
-    color: aliceblue;
-    text-decoration: none;
-    
- }
- 
- .footer__titulo{
-    color: aliceblue;
- }
- 
- .footer__contacto{
-    color: aliceblue;
-    text-decoration: none;
- }
- 
- /*////////////////PSEUDOCLASES FOOTER//////////////*/
- 
- 
- .footer-redes__contacto:hover{
-    font-size: 20px;
-    -webkit-text-stroke: rgb(231, 235, 15) 1px;
- }
- 
+      font-family: 'Kdam Thmor Pro', sans-serif;
+      width: 100%;
+      height: 100px;
+      background: rgb(105,48,255);
+      background: linear-gradient(0deg, rgba(105,48,255,1) 21%, rgba(92,74,244,1) 71%, rgba(34,193,195,1) 92%);
+      display: flex;
+      justify-content: space-between; 
+      align-items: center;
+      }
+
+.footer-redes__contacto{
+      margin-right: 20px;
+      color: aliceblue;
+      text-decoration: none;
+      }
+
+.footer__titulo{
+      color: aliceblue;
+}
+
+.footer__contacto{
+      color: aliceblue;
+      text-decoration: none;
+}
+
+/*////////////////PSEUDOCLASES FOOTER//////////////*/
+
+.footer-redes__contacto:hover{
+      font-size: 20px;
+      -webkit-text-stroke: rgb(231, 235, 15) 1px;
+}

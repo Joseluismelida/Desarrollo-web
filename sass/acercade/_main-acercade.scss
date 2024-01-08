@@ -1,43 +1,40 @@
 
 /*////////////////////////////////////////////////////////////////////////////////////////////
-                           INDEX ACERCA DE
+                              INDEX ACERCA DE
 ////////////////////////////////////////////////////////////////////////////////////////////*/
 /*////////////////MAIN//////////////*/
 
 .mainh__titulo{
-    font-size: 55px;
-    color: antiquewhite;
-    padding-left: 0;
- }
- 
- 
- .mainh__padrebox{
- 
-    width:auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
- }
- 
- 
- 
- .mainh-padrebox__iframe{
-    height: 600px;
-    width: 400px;
-    border-radius: 10px;
- }
- .mainh-padrebox__acercade{
-    background-color: #D9D9D9;
-    height: 600px;
-    width: 400px;
-    border-radius: 10px;
-    text-align: center;
- }
- 
- .mainh-padrebox__p{
-    font-size: 28px;
-    font-family: Impact, 'Arial Narrow Bold', sans-serif;
-    
- 
- }
- 
+      font-size: 55px;
+      color: antiquewhite;
+      padding-left: 0;
+}
+
+
+.mainh__padrebox{
+      width:auto;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+
+
+.mainh-padrebox__iframe{
+      height: 600px;
+      width: 400px;
+      border-radius: 10px;
+}
+
+.mainh-padrebox__acercade{
+      background: rgb(238,174,202);
+      background: radial-gradient(circle, rgba(238,174,202,0.8761948016511292) 0%, rgba(148,161,233,0.7165309361049107) 75%);
+      height: 600px;
+      width: 400px;
+      border-radius: 10px;
+      text-align: center;
+}
+
+.mainh-padrebox__p{
+      font-size: 28px;
+      font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
