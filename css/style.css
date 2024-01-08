@@ -160,7 +160,7 @@ ul li a {
 }
 
 /*////////////////////////////////////////////////////////////////////////////////////////////
-                        RESTAURANTE APLICANDO GRID Y FLEX
+                        RESTAURANTE APLICANDO GRID 
 ////////////////////////////////////////////////////////////////////////////////////////////*/
 .grid__hijo {
   border-radius: 15px;
@@ -179,10 +179,7 @@ ul li a {
 }
 
 .grid-hijo__p {
-  text-align: center;
-  font-size: 16px;
-  display: flex;
-  align-items: center;
+  color: rgb(18, 29, 25);
 }
 
 .grid {
