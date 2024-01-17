@@ -23,9 +23,12 @@
 
 .grid-hijo__p{
       color: rgb(18, 29, 25);
+      padding: 18px;
+
 }
 
 .grid{
+      padding-bottom: 20px;
       padding-left: 20px;
       display: grid;
       grid-template-columns: repeat(2, 1fr);

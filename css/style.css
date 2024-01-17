@@ -180,9 +180,11 @@ ul li a {
 
 .grid-hijo__p {
   color: rgb(18, 29, 25);
+  padding: 18px;
 }
 
 .grid {
+  padding-bottom: 20px;
   padding-left: 20px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -418,6 +420,9 @@ ul li a {
   .grid__hijo {
     width: 400px;
     height: 150px;
+  }
+  .grid-hijo__p {
+    overflow: auto;
   }
 }
 @media (min-width: 320px) and (max-width: 510px) {

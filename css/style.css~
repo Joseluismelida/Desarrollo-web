@@ -1,20 +1,11 @@
 @charset "UTF-8";
-/*////////////TIPOGRAFIA KANIT=MAIN///////////*/
+/*////////////////RESET//////////////*/
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;600&display=swap");
-/*////////////KDAM THMOR PRO=HEADER-FOOTER///////////*/
 @import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-/*////////////HEADER RESET///////////*/
-#header {
-  font-family: "Kdam Thmor Pro", sans-serif;
-  width: 100%;
-  height: 90px;
-  background-color: #6085E4;
 }
 
 li {
@@ -26,6 +17,15 @@ ul li a {
   color: #D9D9D9;
   padding: 10px;
   font-size: 20px;
+}
+
+/*////////////HEADER///////////*/
+#header {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  width: 100%;
+  height: 90px;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(0deg, rgb(34, 193, 195) 21%, rgba(105, 48, 255, 0.9210127288) 80%, rgba(102, 45, 253, 0.9210127288) 92%);
 }
 
 /*////////////////NABAR//////////////*/
@@ -43,120 +43,22 @@ ul li a {
   display: inline-block;
 }
 
-/*////////////////MAIN//////////////*/
-#main {
-  min-height: 100vh;
-  width: 100%;
-  font-family: "Kanit", sans-serif;
-}
-
-.fondoMain {
-  background-image: url(../images/pexels-vlad-chețan-2957461.jpg);
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 550px;
-}
-
-.fondoMain__titulo {
-  height: auto;
-  width: 50px;
-  margin-left: 3em;
-}
-
-.title {
-  font-size: 55px;
-  color: antiquewhite;
-  padding-left: 0;
-}
-
-/*////////////////PSEUDOCLASES NABAR//////////////*/
-#nav a:hover {
-  font-size: 20px;
-  -webkit-text-stroke: rgb(231, 235, 15) 1px;
-}
-
-/*////////////////IMAGNES MAIN//////////////*/
-.imagenesMain {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #D9D9D9;
-  width: 100%;
-  height: 500px;
-}
-
-.imagenes__tamaño {
-  width: 350px;
-  height: 320px;
-}
-
-/*////////////////CONTAINER//////////////*/
-.container {
-  width: 100%;
-  height: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.container__descripcion {
-  background-color: #D9D9D9;
-  width: 500px;
-  height: 100px;
-  text-align: center;
-  align-items: center;
-  border-radius: 30px;
-}
-
-/*////////////////SERVICIOS//////////////*/
-.container-descripcion__subtitulo {
-  color: #00AD1C;
-  font-size: 25px;
-}
-
-.container-descripcion__pservicios {
-  color: #169502;
-  font-size: 20px;
-}
-
-.boxi-icons__servicios {
-  width: 150px;
-  height: 150px;
-}
-
-.boxi__icons {
-  width: 160px;
-  background-color: #6085E4;
-  border-radius: 20px;
-  text-align: center;
-}
-
-.boxi {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 30px;
-  /*////////////////PSEUDOCLASES SERVICIOS//////////////*/
-}
-
-.icons:hover {
-  background-color: rgb(167, 249, 91);
-  box-shadow: black 20px 20px 20px;
-}
-
 /*////////////////FOOTER//////////////*/
 #footer {
   font-family: "Kdam Thmor Pro", sans-serif;
   width: 100%;
   height: 100px;
-  background-color: #0B2B7C;
+  background: rgb(105, 48, 255);
+  background: linear-gradient(0deg, rgb(105, 48, 255) 21%, rgb(92, 74, 244) 71%, rgb(34, 193, 195) 92%);
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.footer__redes {
+.footer-redes__contacto {
   margin-right: 20px;
+  color: aliceblue;
+  text-decoration: none;
 }
 
 .footer__titulo {
@@ -169,13 +71,14 @@ ul li a {
 }
 
 /*////////////////PSEUDOCLASES FOOTER//////////////*/
-.footer__contacto:hover {
+.footer-redes__contacto:hover {
   font-size: 20px;
   -webkit-text-stroke: rgb(231, 235, 15) 1px;
 }
 
+/*IMPORTS PAGES*/
 /*////////////////////////////////////////////////////////////////////////////////////////////
-                           INDEX ACERCA DE
+                              INDEX ACERCA DE
 ////////////////////////////////////////////////////////////////////////////////////////////*/
 /*////////////////MAIN//////////////*/
 .mainh__titulo {
@@ -198,7 +101,8 @@ ul li a {
 }
 
 .mainh-padrebox__acercade {
-  background-color: #D9D9D9;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 0.8761948017) 0%, rgba(148, 161, 233, 0.7165309361) 75%);
   height: 600px;
   width: 400px;
   border-radius: 10px;
@@ -211,7 +115,7 @@ ul li a {
 }
 
 /*////////////////////////////////////////////////////////////////////////////////////////////
-                           HABITACIONES
+                        HABITACIONES
 ////////////////////////////////////////////////////////////////////////////////////////////*/
 #mainh {
   min-height: 100vh;
@@ -221,7 +125,7 @@ ul li a {
   font-family: "Kanit", sans-serif;
 }
 
-.cajaflex__hab {
+.cajaflex-boximg__hab {
   width: 450px;
   height: 300px;
   border-radius: 20px;
@@ -236,21 +140,32 @@ ul li a {
   justify-content: space-around;
 }
 
-.cajaflex__boxImg {
+.cajaflex__boximg {
   width: 450px;
   height: 400px;
   text-align: center;
-  background-color: #D9D9D9;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 0.8761948017) 0%, rgba(148, 161, 233, 0.7165309361) 75%);
   border-radius: 20px;
   margin-bottom: 50px;
 }
 
 /*////////////////////////////////////////////////////////////////////////////////////////////
-                           RESTAURANTE APLICANDO GRID Y FLEX. QUE DIOS ME AYUDE D:
+                        BOOTSTRAP
+////////////////////////////////////////////////////////////////////////////////////////////*/
+.form-label {
+  font-size: 20px;
+  color: #fffcfc;
+  font-family: sans-serif;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////
+                        RESTAURANTE APLICANDO GRID 
 ////////////////////////////////////////////////////////////////////////////////////////////*/
 .grid__hijo {
   border-radius: 15px;
-  background-color: #D9D9D9;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 0.8761948017) 0%, rgba(148, 161, 233, 0.7165309361) 75%);
   border: #0B2B7C solid 2px;
   width: 520px;
   height: 150px;
@@ -264,10 +179,7 @@ ul li a {
 }
 
 .grid-hijo__p {
-  text-align: center;
-  font-size: 16px;
-  display: flex;
-  align-items: center;
+  color: rgb(18, 29, 25);
 }
 
 .grid {
@@ -308,22 +220,153 @@ ul li a {
   grid-row: 3/4;
 }
 
-/*////////////////////////////////////////////////////////////////////////////////////////////
-                           BOOTSTRAP
-////////////////////////////////////////////////////////////////////////////////////////////*/
-.form-label {
-  font-size: 20px;
-  color: #fffcfc;
-  font-family: sans-serif;
+/*////////////////MAIN//////////////*/
+#main {
+  min-height: 100vh;
+  width: 100%;
+  font-family: "Kanit", sans-serif;
+  background: rgb(22, 255, 203);
+  background: linear-gradient(0deg, rgba(22, 255, 203, 0) 9%, rgba(54, 226, 248, 0.6100883591) 18%, rgb(54, 226, 248) 22%);
 }
 
+.fondoMain {
+  background-image: url(../images/pexels-vlad-chețan-2957461.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 550px;
+}
+
+.fondoMain__titulo {
+  height: auto;
+  width: 50px;
+  margin-left: 3em;
+}
+
+.title {
+  font-size: 55px;
+  color: antiquewhite;
+  padding-left: 0;
+}
+
+/*////////////////PSEUDOCLASES NABAR//////////////*/
+#nav a:hover {
+  font-size: 20px;
+  -webkit-text-stroke: rgb(231, 235, 15) 1px;
+}
+
+/*////////////////IMAGNES MAIN//////////////*/
+.muestra {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+}
+
+.muestra-imagenes__tamaño {
+  width: 350px;
+  height: 320px;
+}
+
+/*////////////////CONTAINER//////////////*/
+.container {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container__descripcion {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
+  width: 500px;
+  height: 100px;
+  text-align: center;
+  align-items: center;
+  border-radius: 30px;
+  box-shadow: black 3px 5px 5px;
+  transition: 1s;
+}
+
+/*////////////////SERVICIOS//////////////*/
+.container-descripcion__subtitulo {
+  color: #00AD1C;
+  font-size: 25px;
+}
+
+.container-descripcion__pservicios {
+  color: #169502;
+  font-size: 20px;
+}
+
+.boxi-icons__servicios {
+  width: 150px;
+  height: 150px;
+}
+
+.boxi__icons {
+  width: 160px;
+  background-color: #3c6eee;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: black 3px 5px 5px;
+  transition: 2s;
+}
+
+.boxi {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+/*////////////////PSEUDOCLASES SERVICIOS//////////////*/
+.boxi__icons:hover {
+  background-color: rgb(64, 235, 55);
+  box-shadow: black 20px 20px 20px;
+  transition: 2s;
+}
+
+.container__descripcion:hover {
+  box-shadow: black 20px 20px 20px;
+  transition: 1s;
+}
+
+/*IMPORT MEDIA QUERIES*/
 /*////////////////////////////////////////////////////////////////////////////////////////////
-                           MEDIA QUERIES EN HABITACIONES Y ACERCA DE
+                           MEDIA QUERIES 
 ////////////////////////////////////////////////////////////////////////////////////////////*/
+@media (max-width: 1100px) {
+  /*INDEX*/
+  .muestra-imagenes__tamaño {
+    width: 300px;
+  }
+  /*HABITACIONES*/
+  .grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 @media (max-width: 900px) {
   ul li a {
     padding: 5px;
     font-size: 18px;
+  }
+  /*INDEX*/
+  .muestra-imagenes__tamaño {
+    width: 200px;
+    height: 280px;
+  }
+  .boxi-icons__servicios {
+    width: 100px;
+    height: 100px;
+  }
+  .boxi {
+    flex-wrap: wrap;
+    gap: 20px;
   }
   /*HABITACIONES*/
   .cajaflex {
@@ -343,6 +386,20 @@ ul li a {
   }
 }
 @media (max-width: 600px) {
+  /*INDEX*/
+  .muestra-imagenes__tamaño {
+    width: 150px;
+    height: 200px;
+  }
+  .boxi__icons {
+    width: 145px;
+  }
+  .fondoMain {
+    height: 500px;
+  }
+  .muestra {
+    height: 300px;
+  }
   /*ACERCA DE*/
   .mainh__padrebox {
     flex-direction: column-reverse;
@@ -353,6 +410,14 @@ ul li a {
   ul li a {
     padding: 5px;
     font-size: 15px;
+  }
+  /*HABITACIONES*/
+  .grid-hijo__img {
+    width: 100px;
+  }
+  .grid__hijo {
+    width: 400px;
+    height: 150px;
   }
 }
 @media (min-width: 320px) and (max-width: 510px) {
@@ -368,6 +433,27 @@ ul li a {
     height: 200px;
     display: flex;
   }
+  /*INDEX*/
+  .muestra-imagenes__tamaño {
+    width: 105px;
+    height: 150px;
+  }
+  .muestra-imagenes__p {
+    font-size: 15px;
+  }
+  .boxi__icons {
+    width: 100px;
+  }
+  .boxi-icons__p {
+    font-size: 11px;
+  }
+  /*HABITACIONES*/
+  .grid__hijo {
+    height: auto;
+  }
+  .grid-hijo__img {
+    width: 45%;
+  }
   /*ACERCA DE*/
   .mainh-padrebox__iframe {
     width: 290px;
@@ -382,15 +468,15 @@ ul li a {
     font-size: 20px;
   }
   /*HABITACIONES*/
-  .mainhTitulo {
+  .mainh__titulo {
     font-size: 35px;
   }
-  .cajaflex__boxImg {
+  .cajaflex__boximg {
     width: 300px;
     height: auto;
     margin-bottom: 30px;
   }
-  .cajaflex__hab {
+  .cajaflex-boximg__hab {
     width: 300px;
     height: 150px;
   }
@@ -400,5 +486,8 @@ ul li a {
     gap: 10px;
   }
 }
+/*////////////ESTILOS FUENTES///////////*/
+/*////////////TIPOGRAFIA KANIT=MAIN///////////*/
+/*////////////KDAM THMOR PRO=HEADER-FOOTER///////////*/
 
 /*# sourceMappingURL=style.css~.map */
